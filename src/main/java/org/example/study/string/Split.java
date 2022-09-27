@@ -10,7 +10,7 @@ public class Split {
         return splitAndConvertInt(str);
     }
 
-    private List<Integer> splitAndConvertInt(@NotNull String str) {
+    private @NotNull List<Integer> splitAndConvertInt(@NotNull String str) {
         List<Integer> list = new ArrayList<>();
 
         String[] strArray = str.split(",");
